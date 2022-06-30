@@ -8,10 +8,12 @@
     import LearnPage from './pages/LearnPage.svelte';
     import IntechPage from './pages/IntechPage.svelte';
     import MobileNav from './components/MobileNav.svelte';
+    import AchievementPage from './pages/AchievementPage.svelte';
 </script>
 <Router>
     <MobileNav />
     <Nav />
+    <Route path="achievements" component={AchievementPage}/>
     <Route path="learn" component={LearnPage}/>
     <Route path="about" component={AboutPage}/>
     <Route path="team" component={MemberPage}/>

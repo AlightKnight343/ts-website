@@ -6,6 +6,14 @@
     <div class="nav-logo"></div>
     </Link>
     <ul class="nav-links">
+        <Link to = "/achievements" style="text-decoration: none; color:#eee;">
+            <li>
+                <p>Achievements</p> 
+            </li>
+        </Link>
+        <li style="margin-top: -1.75vw;">
+            |
+        </li>
         <Link to = "/learn" style="text-decoration: none; color:#eee;">
             <li>
                 <p>Learn</p> 
